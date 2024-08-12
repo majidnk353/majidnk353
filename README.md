@@ -4,44 +4,53 @@
 - 🌱 I’m currently learning data science at codeme hub in Calicut 
 - 💞️ I’m looking to collaborate on data analysing companies like oracle,sap
 - 📫 How to reach me through my email (majidnk353@gmail.com),ig(maaji.___)
+------------------------------------
 
 date-12/8/2024
+
 python (base)
-
+-------------
 print("hello world")#
-print('hello')
-print('''hello
-     world''')#
-print(1)#
-print(1.3)#
-print(True)#
-print(False)#
-#arthmatic operators
-print(100+90)#
-print(100-90)#
-print(60/8)#
-print(100*90)#
-print(4**2)#
-print(11//2)#
-print(11%2)#
-'''#comparison operator
+indentation error-space error
+comma error-print without comma
 
-   < less than
-   > greater than
-   >= greater than or equalto
-   <= less than or equalto
-   == equalto
-   != notequalto
-'''
-print(5<5)
-print(5>5)
-print(5>=5)
-print(5<=5)
-print(5==5)
-print(5!=5)
+data types  
+-----------
+1.string(double qouts,single  qouts),multiline("""sentance""")
+               2.number(integer(-1,2,3,0,etc)excluding decimal number)
+               3.float(3.1,1,2.5,-4,-4.5)with decimal points
+			   4.boolean(True,False)
 
-#logical operators
-print(5>10 and 5==5)#and-if both true =true
-print(3>2 and 3!=3)#or -if any one true=true 
-print(not 3>1)#not -opposite
+comments  
+---------
+nonexcecutive lines-
+1.single linecomment 
+using (#))ex:#hi hello)
+							2.multiline comments 
+       using(''' comments'''),             ("""coments""")
+
+
+operators  
+---------
+1. (arthmatic operator)
+   --------------------
+   (+,-,/,*,//,**,%)
+                                  //-floor division(to get quotient value without decimal point)
+                                  **-exponetentiation(to find power of numbers)
+%-modulus(to find reminder)
+
+2.comparison operators
+----------------------
+< less than
+							> greater than
+							>= greater than or equalto
+							<= less than or equalto
+							== equalto
+							!= notequalto
+								   
+3.logical operators
+-------------------
+1.and (if both true =true
+							2.or (if any one true=true)
+							3.not (opposite)
 
