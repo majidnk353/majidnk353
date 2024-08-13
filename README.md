@@ -59,7 +59,7 @@ operators
 								   
 3.logical operators
 -------------------
-and (if both true =true
+and (if both true =true)(
 or (if any one true=true)
 not (opposite)
 
