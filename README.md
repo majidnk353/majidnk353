@@ -21,7 +21,7 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=majidnk353&" alt="majidnk353" /></p>
 
 
-date-12/8/2024
+date-12/8/2024(DAY-01)
 
 python (base)-
 high level intrepeted programming language
