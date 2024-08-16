@@ -21,73 +21,73 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=majidnk353&" alt="majidnk353" /></p>
 
 
-date-12/8/2024(joined codeme)(data science)
-------------------------------------------
-(DAY-01)
---------
-python (base)-
-high level intrepeted programming language
-introduced by(guido vann rossum)
-easy to use
-oops 
-dynamic type programming language
-open source
+<h5>date-12/8/2024(joined codeme)(data science)<h5>
+<hr>
+<h6>(DAY-01)<h6>
+<p>-------- <br>
+python (base)- <br>
+high level intrepeted programming language <br>
+introduced by(guido vann rossum) <br>
+easy to use <br>
+oops  <br>
+dynamic type programming language <br>
+open source <br>
+</p>
+--------------------------------- <br>
+print("hello world")#            - <br>
+indentation error-space error    - <br>
+comma error-print without comma  - <br>
+--------------------------------- <br>
+data types   <br>
+----------- <br>
+1.string(double qouts,single  qouts),multiline string(doc string)->("""sentance""") <br>
+2.number(integer(-1,2,3,0,etc)excluding decimal number) <br>
+3.float(3.1,1,2.5,-4,-4.5)with decimal points <br>
+4.boolean(True,False) <br>
 
----------------------------------
-print("hello world")#            -
-indentation error-space error    -
-comma error-print without comma  -
----------------------------------
-data types  
------------
-1.string(double qouts,single  qouts),multiline string(doc string)->("""sentance""")
-2.number(integer(-1,2,3,0,etc)excluding decimal number)
-3.float(3.1,1,2.5,-4,-4.5)with decimal points
-4.boolean(True,False)
+comments   <br>
+--------- <br>
+nonexcecutive lines- <br>
+1.single linecomment  <br>
+using (#))ex:#hi hello) <br>
+2.multiline comments  <br>
+using(''' comments'''),("""coments""") <br>
 
-comments  
----------
-nonexcecutive lines-
-1.single linecomment 
-using (#))ex:#hi hello)
-2.multiline comments 
-using(''' comments'''),("""coments""")
+operators   <br>
+--------- <br>
+1. (arthmatic operator) <br>
+   -------------------- <br>
++ (adition) <br>
+- (subtraction) <br>
+/ (division) <br>
+* (multiplication) <br>
+// (floor division(to get quotient value without decimal point) <br>
+** (exponetentiation(to find power of numbers) <br>
+%  (modulus(to find reminder) <br>
 
-operators  
----------
-1. (arthmatic operator)
-   --------------------
-+ (adition)
-- (subtraction)
-/ (division)
-* (multiplication)
-// (floor division(to get quotient value without decimal point)
-** (exponetentiation(to find power of numbers)
-%  (modulus(to find reminder)
-
-2.comparison operators
-----------------------
-< (less than)
-> (greater than)
->= (greater than or equalto)
-<= (less than or equalto)
-== (equalto)
-!= (notequalto)
+2.comparison operators <br>
+---------------------- <br>
+< (less than) <br>
+> (greater than) <br>
+>= (greater than or equalto) <br>
+<= (less than or equalto) <br>
+== (equalto) <br>
+!= (notequalto) <br>
 								   
-3.logical operators
--------------------
-and (if both true =true
-or (if any one true=true)
-not (opposite)
+3.logical operators <br>
+------------------- <br>
+and (if both true =true <br>
+or (if any one true=true) <br>
+not (opposite) <br>
 
-data structure
---------------
-list
-tuple
-set
-dictionary
---------------------------------------------------------------------------
-printing statements
+data structure <br>
+-------------- <br>
+list <br>
+tuple <br>
+set <br>
+dictionary <br>
+-------------------------------------------------------------------------- <br>
+printing statements <br>
 -------------------
 print("hello world")#printed using double qoutes
 print('hello')#printed using single qoutes
@@ -425,17 +425,20 @@ print(round(x,2))
 print(round(x,3))
 #-----------------------------------------------------------------
 #len()
+#-------
 #used to find length of an object such as sring,list,tuples etc..
 text="welcome"
 length=len(text)
 print(length)
 #-----------------------------------------------------------------    
 #input()
+#--------
 #used to retreive data from user.
 name=input("Enter your name:")
 age=input("enter your age:")
 print("my name is " +name+ " and im " +age+ " years old")
-#--------------------------------------------------------------------
+
+
 #string formating methods(using type casting)
 #------------------------------------------------------------------
 #format method
@@ -471,33 +474,130 @@ print("progrma end")
 
 #if else ladder
 #--------------
+'''
+Grade $ Mark
+A - 80-100 above
+B - 61-80
+C - 51-60
+D - 41-50
+F - below 40
+'''
+score=int(input("enter your score:"))
+if(score>80):
+    print("A Grade")
+else:
+    if(score>60):
+        print("B Grade")
+    else:
+        if(score>=50):
+            print("C Grade")
+        else:
+            if(score>=40):
+                print("C Grade")
+            else:
+                print("fail")
+print("thank you")
+
 #if elif else
 #------------
 '''
 .here we can check several conditional
  statements using (if elif else) statement
 '''
+Grade $ Mark
+A - 80-100 above
+B - 61-80
+C - 51-60
+D - 41-50
+F - below 40
+'''
+score=int(input("enter your score:"))
 
-#example
-mark=int(input("enter your score:"))
-if mark>80:
-         print(" distinction")
-elif (45<=mark<=80):
-    print(" A grade")
-elif (30<=mark<=40):
-    print(" B grade")
+if(score>80):
+    print("A Grade")
+
+elif(score>60):
+    print("B Grade")
+
+elif(score>50):
+    print("C Grade")
+
+elif(score>40):
+    print("C Grade")
+
 else:
     print("fail")
+
+print("thank you")
+                    
 #-------------------------------------------------------------------
+
 '''
 while loop
 ----------
 .its a looping conditional statements 
 .looping statements will continue if the given condition is True
 '''
-
-i=3#here we taken i as a variable assign as 3
-while i<=6:#while loop will start if the condition is true (here i is less than 6 or i<6)
+#method 1
+#--------
+i=1#(initialization)here we taken i as a variable assign as 3
+while i<=6:#(condition)while loop will start if the condition is true (here i is less than 6 or i<6)
     print(i)#if i is less than 6 it will print the number
-    i=i+1#it will add 1 to i until i<=6 else loop continues till  
+    i=i+=1#it will add 1 to i until i<=6 else loop continues till  
 print("the given above numbers are less than 6")#this statement exceute if the loop over
+#method 2
+----------
+i=10#(initialization)
+while i>=1:#(condition)while loop will start if the condition is true 
+    print(i)
+    i=i-1
+print("thanks")#this statement exceute if the loop over
+
+#method 3
+---------
+
+i=1#(initialization)
+while i<=10:#(condition)while loop will start if the condition is true (here i is less than 6 or i<6)
+    print(11-i)#if i is less than 6 it will print the number
+    i+=1#it will add 1 to i until i<=6 else loop continues till  
+print("the given above numbers are less than 6")#this statement exceute if the loop over
+
+#method 4
+#----------
+i=1#(initialization)
+while i<=10:#(condition)while loop will start if the condition is true 
+    print(11-i)
+    i+=1 
+print("thankyou")#this statement exceute if the loop over
+
+#iteration
+#----------
+#each cycle of loop is called iteration
+
+#break statement
+#---------------
+#if we give break statement it jump out of the loop
+#1
+#--
+count=0
+while count<5:
+    count+=1
+    if count==3:
+        break
+    print(count)
+print("end")
+
+#2
+#--
+
+count=10
+while count<=10:
+    print(count)
+    if count==1:
+        break
+    count-=1
+print("end")
+    
+#continue
+#--------
+#list
