@@ -89,16 +89,16 @@ dictionary <br>
 -------------------------------------------------------------------------- <br>
 printing statements <br>
 -------------------
-print("hello world")#printed using double qoutes
-print('hello')#printed using single qoutes
-print('''hello world''')#printed using thrible qoutes so we can print several lines at a time
-print(1)#to print integer
-print(1.3)#to print float
-print(True)#to print boolean value (True)
-print(False)#to print boolean value (False)
--------------------------------------------------------------------------
-#arthmatic operators
---------------------
+print("hello world")#printed using double qoutes <br>
+print('hello')#printed using single qoutes <br>
+print('''hello world''')#printed using thrible qoutes so we can print several lines at a time <br>
+print(1)#to print integer <br>
+print(1.3)#to print float <br>
+print(True)#to print boolean value (True) <br>
+print(False)#to print boolean value (False) <br>
+------------------------------------------------------------------------- <br>
+#arthmatic operators <br>
+-------------------- <br>
 print(100+90)#
 print(100-90)#
 print(60/8)#
