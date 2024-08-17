@@ -78,7 +78,7 @@ operators   <br>
 ------------------- <br>
 and (if both true =true <br>
 or (if any one true=true) <br>
-not (opposite) <br>
+not (opposite) <br> 
 
 data structure <br>
 -------------- <br>
