@@ -88,7 +88,7 @@ set <br>
 dictionary <br>
 -------------------------------------------------------------------------- <br>
 printing statements <br>
--------------------
+------------------- <br>
 print("hello world")#printed using double qoutes <br>
 print('hello')#printed using single qoutes <br>
 print('''hello world''')#printed using thrible qoutes so we can print several lines at a time <br>
@@ -99,262 +99,262 @@ print(False)#to print boolean value (False) <br>
 ------------------------------------------------------------------------- <br>
 #arthmatic operators <br>
 -------------------- <br>
-print(100+90)#
-print(100-90)#
-print(60/8)#
-print(100*90)#
-print(4**2)#
-print(11//2)#
-print(11%2)#
-#comparison operator
----------------------
+print(100+90)# <br>
+print(100-90)# <br>
+print(60/8)# <br>
+print(100*90)# <br>
+print(4**2)# <br>
+print(11//2)# <br>
+print(11%2)# <br>
 
-   < less than
-   > greater than
-   >= greater than or equalto
-   <= less than or equalto
-   == equalto
-   != notequalto
+#comparison operator <br>
+--------------------- <br>
 
-print(5<5)
-print(5>5)
-print(5>=5)
-print(5<=5)
-print(5==5)
-print(5!=5)
+   < less than <br>
+   > greater than <br>
+   >= greater than or equalto <br>
+   <= less than or equalto <br>
+   == equalto <br>
+   != notequalto <br>
 
-#logical operators
---------------------
-print(5>10 and 5==5)#and-if both true =true
-print(3>2 and 3!=3)#or -if any one true=true 
-print(not 3>1)#not -opposite.
+print(5<5) <br>
+print(5>5) <br>
+print(5>=5) <br>
+print(5<=5) <br>
+print(5==5) <br>
+print(5!=5) <br>
 
-DAY-02
+#logical operators <br>
+-------------------- <br>
+print(5>10 and 5==5)#and-if both true =true <br>
+print(3>2 and 3!=3)#or -if any one true=true  <br>
+print(not 3>1)#not -opposite. <br>
+
+DAY-02 <br>
 -------
-#logical operators are (and,or,not)
+#logical operators are (and,or,not) <br>
 
-#and
+#and <br>
 -----
-# T and T = T
-# T and F = F
-print(5>2 and 5==5)#true
-print(5>2 and 4==5)#false
+# T and T = T <br>
+# T and F = F <br>
+print(5>2 and 5==5)#true <br>
+print(5>2 and 4==5)#false <br>
 
-#or
-----
-# T and T = T
-# T and F = T
-# F and F = F
-print(5>2 or 5==5)#true
-print(5>2 or 4==5)#true
-print(5<2 or 4==5)#false
+#or <br>
+---- <br>
+# T and T = T <br>
+# T and F = T <br>
+# F and F = F <br>
+print(5>2 or 5==5)#true <br>
+print(5>2 or 4==5)#true <br>
+print(5<2 or 4==5)#false <br>
 
-#not
------
-#if T then F
-#if F then T
-print(not 5<2)#true
-print(not 5>2)#false
+#not <br>
+----- <br>
+#if T then F <br>
+#if F then T <br>
+print(not 5<2)#true <br>
+print(not 5>2)#false <br>
 
-#string concatination
-#----------------------
-#concatination is using (+) operator with strings only
-#(str + str)
-print("hello"+"world")
-#output (helloworld)
-#hellohellohellohellohello
+#string concatination <br>
+#---------------------- <br>
+#concatination is using (+) operator with strings only <br>
+#(str + str) <br>
+print("hello"+"world") <br> 
+#output (helloworld) <br>
+#hellohellohellohellohello <br>
 
-#string multiplies
-#-------------------
+#string multiplies <br>
+#------------------- <br>
 
-print("hello"*5)
-#output (hellohellohellohellohello)
+print("hello"*5) <br>
+#output (hellohellohellohellohello) <br>
 
 
-#    variables
-#-----------------
-#variables are used to store and manipulate data(example: variable is a container wich holds a data)
-x="hello"
-print(x)
-print(x*5)
+#    variables <br>
+#----------------- <br>
+#variables are used to store and manipulate data(example: variable is a container wich holds a data) <br>
+x="hello" <br>
+print(x) <br>
+print(x*5) <br>
 
-#assign operator(=) is used to assign a value to variable
-#variable can't start with number (2username,3m,6name)
-#variable should not be use (-,(space),)
-#variables can use (_) underscore
+#assign operator(=) is used to assign a value to variable <br>
+#variable can't start with number (2username,3m,6name) <br>
+#variable should not be use (-,(space),) <br>
+#variables can use (_) underscore <br>
 
-#---------------------------------------------------------------
+#--------------------------------------------------------------- <br>
 
-#operation using variables
-#----------------------------
-x=5
-y=9
-print(x+y)
-#----------------------------
+#operation using variables <br>
+#---------------------------- <br>
+x=5 <br>
+y=9 <br>
+print(x+y) <br>
+#---------------------------- <br>
 
-#Dynamic typed programming language
+#Dynamic typed programming language <br>
 -----------------------------------
-#while creating variable we dont want to declare the datatype to assign the value
+#while creating variable we dont want to declare the datatype to assign the value <br>
 
-#--------------------------------------------------------------------------------------------
-#Escape sequences
-#-----------------
-print('hello \nworld')#/n
-print('hello \tworld')#/t
-#print('i'm /nworld')
-#we can use (') inside ('') sentance by using (\)
-print('i\'m\nworld')
+#-------------------------------------------------------------------------------------------- <br>
+#Escape sequences <br>
+#----------------- <br>
+print('hello \nworld')#/n <br>
+print('hello \tworld')#/t <br>
+#print('i'm /nworld') <br>
+#we can use (') inside ('') sentance by using (\) <br>
+print('i\'m\nworld') <br>
 
-#swapping methode
-#--------------------------      
-#methode 01
-#----------
-a=2
-b=3
-temp=a
-b=a
-a=temp
-print(a,b)
+#swapping methode <br>
+#--------------------------       <br>
+#methode 01 <br>
+#---------- <br>
+a=2 <br>
+b=3 <br>
+temp=a <br>
+b=a <br>
+a=temp <br>
+print(a,b) <br>
 
-#methode 02
-#----------
-a=2
-b=3
-#a,b=10,5
-a,b=b,a
-print(a,b)
+#methode 02 <br>
+#---------- <br>
+a=2 <br>
+b=3 <br>
+#a,b=10,5 <br> 
+a,b=b,a <br>
+print(a,b) <br>
 
-#--------------
+#-------------- <br>
 
-a,b,c=10,5,15
-a,b,c=b,c,a
-print(a,b,c)
-      
-#--------------
+a,b,c=10,5,15 <br>
+a,b,c=b,c,a <br>
+print(a,b,c) <br>
+       
+#-------------- <br>
 
-#type casting
-#-------------
+#type casting <br>
+#------------- <br>
 
-#to change a variable type to another type
+#to change a variable type to another type <br>
 
-a=145
-b=12.3
-c=True
+a=145 <br>
+b=12.3 <br>
+c=True <br>
 
-x=float(a)
-y=int(b)
-z=str(c)
-print(x,y,z)
-#----------------------------------------
-#type() function
-#----------------
-#to identify the type of the variable
-y=125
-print(type(y))
-#---------------------------------
-x="123.5"
-y=float(x)
-print(y)
-z=int(y)
-print(z)
-#---------------------------------
-'''inplace operator
-+=
--=
-/=
-*=
-//=
-**=
-%=
-'''
-#-----------------------------------
-a=10
-a+=15 #a=a+15
-print(a)
-#-------------------------------------
-a=10
-a-=15 #a=a-15
-print(a)
+x=float(a) <br>
+y=int(b) <br>
+z=str(c) <br>
+print(x,y,z) <br>
+#---------------------------------------- <br>
+#type() function <br>
+#---------------- <br>
+#to identify the type of the variable <br>
+y=125 <br> 
+print(type(y)) <br>
+#--------------------------------- <br>
+x="123.5" <br>
+y=float(x) <br>
+print(y) <br>
+z=int(y) <br>
+print(z) <br>
+#--------------------------------- <br>
+'''inplace operator <br>
++= <br>
+-= <br>
+/= <br> 
+*= <br>
+//= <br>
+**= <br>
+%= <br>
+''' <br>
+#----------------------------------- <br>
+a=10 <br>
+a+=15 #a=a+15 <br> 
+print(a) <br>
+#------------------------------------- <br>
+a=10 <br>
+a-=15 #a=a-15 <br>
+print(a) <br>
+-------------------------------------- <br>
+a=10 <br>
+a/=15 #a=a/15 <br>
+print(a) <br>
+-------------------------------------- <br>
+a=10 <br>
+a*=15 #a=a*15 <br>
+print(a) <br>
 --------------------------------------
-a=10
-a/=15 #a=a/15
-print(a)
---------------------------------------
-a=10
-a*=15 #a=a*15
-print(a)
---------------------------------------
-a=10
-a//=15 #a=a//15
-print(a)
-------------------------------------
-a=10
-a**=15#a=a**15
-print(a)
-------------------------------------
-a=10
-a%=15#a=a%15
-print(a)
------------------------------------
+a=10 <br>
+a//=15 #a=a//15 <br>
+print(a) <br> 
+----------------------------------- <br>
+a=10 <br>
+a**=15#a=a**15 <br>
+print(a) <br>
+------------------------------------ <br>
+a=10 <br>
+a%=15#a=a%15 <br>
+print(a) <br>
+----------------------------------- <br>
 
-DAY-03
-------
+DAY-03 <br>
+------ <br>
 
-#identity operator (is,is not,id())
-#----------------------------------
-'''
-1.two identical operators are (is),(is not)
-2.to check whether two objects are identical or not
-3.itis used to compare the memory address of two objects
-  to check whether they contain same object or not.
-4.operators are used in objects such as (tuples,list,string and dictionaries)
-'''
+#identity operator (is,is not,id()) <br>
+#---------------------------------- <br>
+''' <br>
+1.two identical operators are (is),(is not) <br>
+2.to check whether two objects are identical or not <br>
+3.itis used to compare the memory address of two objects <br>
+  to check whether they contain same object or not. <br>
+4.operators are used in objects such as (tuples,list,string and dictionaries) <br>
+''' <br>
 
-#---------------------------------------------------------------------------
-is operator
------------
-1.is operator returns True if two variables
-  point to same object in memory else return False
-2.if it is same value but refers to different object
-  and without assigning objects it returns (False)'''
-x=[1,2,3]
-z=[1,2,3]
+#--------------------------------------------------------------------------- <br>
+is operator <br>
+----------- <br>
+1.is operator returns True if two variables <br>
+  point to same object in memory else return False <br>
+2.if it is same value but refers to different object <br>
+  and without assigning objects it returns (False)''' <br>
+x=[1,2,3] <br>
+z=[1,2,3] <br>
 y=x
-print(x is z)#here same value in both object but it doesnt equalise same object memmoryaddress so it show false.'''
-print(x is y)#here the two objects assigned so the same memory address so it will show True'''
-#-----------------------------------------------------------------------------------------
-'''
-is not operator
----------------
-1.this operator returns (True) if two variables
-do not point to same object in memmory,and False otherwise.
-2.opposit of is operator
-'''
-x=[1,2,3]
-y=x
-z=[1,2,3]
+print(x is z)#here same value in both object but it doesnt equalise same object memmoryaddress so it show false.''' <br>
+print(x is y)#here the two objects assigned so the same memory address so it will show True''' <br>
+#----------------------------------------------------------------------------------------- <br>
+''' <br> 
+is not operator <br>
+--------------- <br>
+1.this operator returns (True) if two variables <br>
+do not point to same object in memmory,and False otherwise. <br>
+2.opposit of is operator <br>
+''' <br>
+x=[1,2,3] <br>
+y=x <br>
+z=[1,2,3] <br>
+ <br>
+print(x is not z) #here  it doesnt equalise same object memmory address so it show True''' <br>
+print(x is not y) #here the two objects assigned so the same memory address so it will show false''' <br>
+#----------------------------------------------------------------------------- <br>
 
-print(x is not z) #here  it doesnt equalise same object memmory address so it show True'''
-print(x is not y) #here the two objects assigned so the same memory address so it will show false'''
-#-----------------------------------------------------------------------------
 
+#membership operator (in,not in) <br>
+#------------------------------- <br>
 
-#membership operator (in,not in)
-#-------------------------------
+#membership operator is used to check the value is exist or not <br>
+#this operators are used with sequences such as strings,tuples,list <br> 
 
-#membership operator is used to check the value is exist or not
-#this operators are used with sequences such as strings,tuples,list
-
-'''
----------------------------------------------------------------------------
-in operator
+''' <br>
+--------------------------------------------------------------------------- <br>
+in operator <br> 
 -----------
-this operator return True if value exist in sequence else return False'''
-z=[1,2,3]
-print(3 in z)#return True bcz 3 exist in z
-print(9 in z)#return False bcz 9 not exist in z
-
-x='hi'
+this operator return True if value exist in sequence else return False''' <br>
+z=[1,2,3] <br>
+print(3 in z)#return True bcz 3 exist in z <br>
+print(9 in z)#return False bcz 9 not exist in z <br>
+x='hi' 
 print('i' in x)#return True bcz char 'i' exist in x
 print('l' in x)#return False bcz char 'l' not exist in x
 '''------------------------------------------------------------------------------------
