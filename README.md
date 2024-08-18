@@ -143,9 +143,9 @@ print(5>2 and 4==5)#false <br>
 
 #or <br>
 ---- <br>
-# T and T = T <br>
-# T and F = T <br>
-# F and F = F <br>
+# T or T = T <br>
+# T or F = T <br>
+# F or F = F <br>
 print(5>2 or 5==5)#true <br>
 print(5>2 or 4==5)#true <br>
 print(5<2 or 4==5)#false <br>
