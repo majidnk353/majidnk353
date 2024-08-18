@@ -259,7 +259,7 @@ print(y) <br>
 z=int(y) <br>
 print(z) <br>
 #--------------------------------- <br>
-'''inplace operator <br>
+'''implace operator <br>
 += <br>
 -= <br>
 /= <br> 
