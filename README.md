@@ -356,250 +356,251 @@ this operator return True if value exist in sequence else return False''' <br>
 z=[1,2,3] <br>
 print(3 in z)#return True bcz 3 exist in z <br>
 print(9 in z)#return False bcz 9 not exist in z <br>
-x='hi' 
-print('i' in x)#return True bcz char 'i' exist in x
-print('l' in x)#return False bcz char 'l' not exist in x
-'''------------------------------------------------------------------------------------
+x='hi'  <br>
+print('i' in x)#return True bcz char 'i' exist in x <br>
+print('l' in x)#return False bcz char 'l' not exist in x <br>
+'''------------------------------------------------------------------------------------ <br>
 
 
-not in operator
----------------
-this operator returns True if a value does not exist in a sequence else return false'''
-z=[1,2,3]
-print(3 not in z)#return False bcz 3 exist in z
-print(9 not in z)#return True bcz 9 not exist in z
+not in operator <br>
+--------------- <br>
+this operator returns True if a value does not exist in a sequence else return false''' <br>
+z=[1,2,3] <br>
+print(3 not in z)#return False bcz 3 exist in z <br>
+print(9 not in z)#return True bcz 9 not exist in z <br>
 
-x='hi'
-print('i' not in x)#return False bcz char 'i' exist in x
-print('l' not in x)#return True bcz char 'l' not exist in x
+x='hi' <br>
+print('i' not in x)#return False bcz char 'i' exist in x <br>
+print('l' not in x)#return True bcz char 'l' not exist in x <br>
 
-#------------------------------------------------------------------------------
-#membership operator(in operator)
-x="this is a text"
-print("tex" in x)
-print("is  " in x)#False bcz two spaces not included in x
-#membership operator(not in operator)
-print("tex" not in x)
-print("is  " in x)
-#----------------------------------------------------------------------------
-'''implace operator
-+=
--=
-/=
-*=
-//=
-**=
-%=
-'''
-a=10
-a+=15
-print(a)
+#------------------------------------------------------------------------------ <br>
+#membership operator(in operator) <br>
+x="this is a text" <br>
+print("tex" in x) <br>
+print("is  " in x)#False bcz two spaces not included in x <br>
+#membership operator(not in operator) <br>
+print("tex" not in x) <br>
+print("is  " in x) <br>
+#---------------------------------------------------------------------------- <br>
+'''implace operator <br>
+------------------- <br>
++= <br>
+-= <br>
+/= <br>
+*= <br>
+//= <br>
+**= <br>
+%= <br>
+''' <br>
+a=10 <br>
+a+=15 <br>
+print(a) <br>
 
-#--------------------------------------------------------------------------
-#id() function
-#--------------
-a=10
-b=5
-c=10
+#-------------------------------------------------------------------------- <br>
+#id() function <br>
+#-------------- <br>
+a=10 <br>
+b=5 <br>
+c=10 <br>
 
-print(id(a))
-print(id(b))
-print(id(c))
-#id() function is used to return the id address of the object
-#----------------------------------------------------------------------------
-a=10
-b=5
-c=10
-a=5#here previous name tag will be not used and new value be assigned
+print(id(a)) <br>
+print(id(b)) <br>
+print(id(c)) <br>
+#id() function is used to return the id address of the object <br>
+#---------------------------------------------------------------------------- <br>
+a=10 <br>
+b=5 <br>
+c=10 <br>
+a=5#here previous name tag will be not used and new value be assigned <br>
 
-print(id(a))
-print(id(b))
-print(id(c))
-
-
-#functions
-#----------
-#round()
-#function used to decimal figuring in python.
-x=3.14159
-print(round(x))
-print(round(x,2))
-print(round(x,3))
-#-----------------------------------------------------------------
-#len()
-#-------
-#used to find length of an object such as sring,list,tuples etc..
-text="welcome"
-length=len(text)
-print(length)
-#-----------------------------------------------------------------    
-#input()
-#--------
-#used to retreive data from user.
-name=input("Enter your name:")
-age=input("enter your age:")
-print("my name is " +name+ " and im " +age+ " years old")
+print(id(a)) <br>
+print(id(b)) <br>
+print(id(c)) <br>
 
 
-#string formating methods(using type casting)
-#------------------------------------------------------------------
-#format method
-#-------------
-#{}-placeholders
+#functions <br>
+#---------- <br>
+#round() <br>
+#function used to decimal figuring in python. <br>
+x=3.14159 <br>
+print(round(x)) <br>
+print(round(x,2)) <br>
+print(round(x,3)) <br>
+#----------------------------------------------------------------- <br>
+#len() <br>
+#------- <br>
+#used to find length of an object such as sring,list,tuples etc.. <br>
+text="welcome" <br>
+length=len(text) <br>
+print(length) <br>
+#----------------------------------------------------------------- <br>    
+#input() <br>
+#-------- <br>
+#used to retreive data from user. <br>
+name=input("Enter your name:") <br>
+age=input("enter your age:") <br>
+print("my name is " +name+ " and im " +age+ " years old") <br>
 
-name=input("enter your name:")
-age=int(input("enter your age:"))
-print("my name is {} and im {} years old".format(name,age))
-#------------------------------------------------------------------
-#f-string
-name=input("enter your name:")
-age=int(input("enter your age:"))
-print(f"my name is {name} and im {age} years old")
-#------------------------------------------------------------------
 
-#conditional statements
-#----------------------
-x=int(input("enter a number:"))
-if x>10:
-      print(f"{x} is greater than 10")
-print("end")
-#------------------------------------------------------------------
+#string formating methods(using type casting) <br>
+#------------------------------------------------------------------ <br>
+#format method <br>
+#------------- <br>
+#{}-placeholders <br>
 
-#if-else statements
-x=int(input("enter a number:"))
-if x%2 == 0:
-      print(f"{x} is even")
-else:
-    print(f"{x} is odd")
-print("progrma end")
-#------------------------------------------------------------------    
+name=input("enter your name:") <br>
+age=int(input("enter your age:")) <br>
+print("my name is {} and im {} years old".format(name,age)) <br>
+#------------------------------------------------------------------ <br>
+#f-string <br>
+name=input("enter your name:") <br>
+age=int(input("enter your age:")) <br>
+print(f"my name is {name} and im {age} years old") <br>
+#------------------------------------------------------------------ <br>
 
-#if else ladder
-#--------------
-'''
-Grade $ Mark
-A - 80-100 above
-B - 61-80
-C - 51-60
-D - 41-50
-F - below 40
-'''
-score=int(input("enter your score:"))
-if(score>80):
-    print("A Grade")
-else:
-    if(score>60):
-        print("B Grade")
-    else:
-        if(score>=50):
-            print("C Grade")
-        else:
-            if(score>=40):
-                print("C Grade")
-            else:
-                print("fail")
-print("thank you")
+#conditional statements <br>
+#---------------------- <br>
+x=int(input("enter a number:")) <br>
+if x>10: <br>
+      print(f"{x} is greater than 10") <br>
+print("end") <br>
+#------------------------------------------------------------------ <br>
 
-#if elif else
-#------------
-'''
-.here we can check several conditional
- statements using (if elif else) statement
-'''
-Grade $ Mark
-A - 80-100 above
-B - 61-80
-C - 51-60
-D - 41-50
-F - below 40
-'''
-score=int(input("enter your score:"))
+#if-else statements <br>
+x=int(input("enter a number:")) <br>
+if x%2 == 0: <br>
+      print(f"{x} is even") <br>
+else: <br>
+    print(f"{x} is odd") <br>
+print("progrma end") <br>
+#------------------------------------------------------------------ <br>    
 
-if(score>80):
-    print("A Grade")
+#if else ladder <br>
+#-------------- <br>
+''' <br>
+Grade $ Mark <br>
+A - 80-100 above <br>
+B - 61-80 <br>
+C - 51-60 <br>
+D - 41-50 <br>
+F - below 40 <br>
+''' <br>
+score=int(input("enter your score:")) <br>
+if(score>80): <br>
+    print("A Grade") <br>
+else: <br>
+    if(score>60): <br>
+        print("B Grade") <br>
+    else: <br>
+        if(score>=50): <br>
+            print("C Grade") <br>
+        else: <br>
+            if(score>=40): <br>
+                print("C Grade") <br>
+            else: <br>
+                print("fail") <br>
+print("thank you") <br>
 
-elif(score>60):
-    print("B Grade")
+#if elif else <br>
+#------------ <br>
+''' <br>
+.here we can check several conditional <br>
+ statements using (if elif else) statement <br>
+''' <br>
+Grade $ Mark <br>
+A - 80-100 above <br>
+B - 61-80 <br>
+C - 51-60 <br> 
+D - 41-50 <br>
+F - below 40 <br>
+''' <br>
+score=int(input("enter your score:")) <br>
 
-elif(score>50):
-    print("C Grade")
+if(score>80): <br>
+    print("A Grade") <br>
 
-elif(score>40):
-    print("C Grade")
+elif(score>60): <br>
+    print("B Grade") <br>
 
-else:
-    print("fail")
+elif(score>50): <br>
+    print("C Grade") <br>
 
-print("thank you")
+elif(score>40): <br>
+    print("C Grade") <br>
+
+else: <br>
+    print("fail") <br>
+
+print("thank you") <br>
                     
-#-------------------------------------------------------------------
+#------------------------------------------------------------------- <br>
 
-'''
-while loop
-----------
-.its a looping conditional statements 
-.looping statements will continue if the given condition is True
-'''
-#method 1
-#--------
-i=1#(initialization)here we taken i as a variable assign as 3
-while i<=6:#(condition)while loop will start if the condition is true (here i is less than 6 or i<6)
-    print(i)#if i is less than 6 it will print the number
-    i=i+=1#it will add 1 to i until i<=6 else loop continues till  
-print("the given above numbers are less than 6")#this statement exceute if the loop over
-#method 2
-----------
-i=10#(initialization)
-while i>=1:#(condition)while loop will start if the condition is true 
-    print(i)
-    i=i-1
-print("thanks")#this statement exceute if the loop over
+''' <br>
+while loop <br>
+---------- <br>
+.its a looping conditional statements <br> 
+.looping statements will continue if the given condition is True <br>
+''' <br>
+#method 1 <br>
+#-------- <br>
+i=1#(initialization)here we taken i as a variable assign as 3 <br>
+while i<=6:#(condition)while loop will start if the condition is true (here i is less than 6 or i<6) <br>
+    print(i)#if i is less than 6 it will print the number <br>
+    i=i+=1#it will add 1 to i until i<=6 else loop continues till <br>  
+print("the given above numbers are less than 6")#this statement exceute if the loop over <br>
+#method 2 <br>
+---------- <br>
+i=10#(initialization) <br>
+while i>=1:#(condition)while loop will start if the condition is true <br> 
+    print(i) <br>
+    i=i-1 <br>
+print("thanks")#this statement exceute if the loop over <br>
 
-#method 3
----------
+#method 3 <br>
+--------- <br>
 
-i=1#(initialization)
-while i<=10:#(condition)while loop will start if the condition is true (here i is less than 6 or i<6)
-    print(11-i)#if i is less than 6 it will print the number
-    i+=1#it will add 1 to i until i<=6 else loop continues till  
-print("the given above numbers are less than 6")#this statement exceute if the loop over
+i=1#(initialization) <br>
+while i<=10:#(condition)while loop will start if the condition is true (here i is less than 6 or i<6) <br>
+    print(11-i)#if i is less than 6 it will print the number <br>
+    i+=1#it will add 1 to i until i<=6 else loop continues till   <br>
+print("the given above numbers are less than 6")#this statement exceute if the loop over <br>
 
-#method 4
-#----------
-i=1#(initialization)
-while i<=10:#(condition)while loop will start if the condition is true 
-    print(11-i)
-    i+=1 
-print("thankyou")#this statement exceute if the loop over
+#method 4 <br>
+#---------- <br>
+i=1#(initialization) <br>
+while i<=10:#(condition)while loop will start if the condition is true <br> 
+    print(11-i) <br>
+    i+=1  <br>
+print("thankyou")#this statement exceute if the loop over <br>
 
-#iteration
-#----------
-#each cycle of loop is called iteration
+#iteration <br>
+#---------- <br>
+#each cycle of loop is called iteration <br>
 
-#break statement
-#---------------
-#if we give break statement it jump out of the loop
-#1
-#--
-count=0
-while count<5:
-    count+=1
-    if count==3:
-        break
-    print(count)
-print("end")
-
-#2
-#--
-
-count=10
-while count<=10:
-    print(count)
-    if count==1:
-        break
-    count-=1
+#break statement <br>
+#--------------- <br>
+#if we give break statement it jump out of the loop <br>
+#1 <br>
+#-- <br>
+count=0 <br>
+while count<5: <br>
+    count+=1 <br>
+    if count==3: <br>
+        break <br>
+    print(count) <br>
+print("end") <br>
+ <br>
+#2 <br>
+#-- <br>
+ <br>
+count=10 <br>
+while count<=10: <br>
+    print(count) <br>
+    if count==1: <br>
+        break <br>
+    count-=1 <br>
 print("end") <br>
     
 #continue <br>
-#--------
-#list
+#-------- <br>
+#list <br>
